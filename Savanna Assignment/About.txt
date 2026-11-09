@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Savanna breweries</title>
+
+	<link rel="stylesheet" href="stylea.css">
+</head>
+<body>
+	<header>
+	
+			<img src="Images/savanna-brew-logo.png">
+	
+		<nav>	 
+		 	<a href="index.html">Home </a> 
+		 	<a href="About.html">About </a>   
+		 	<a href="Menu.html">Menu </a>  
+		 	<a href="Gallery.html">Gallery </a>  
+		 	<a href="Contact.html">Contact </a> 
+	
+		</nav>
+	</header>
+	<div>
+		<img src="Images/about-coffee-banner.jpg" class="Banner">
+	</div>
+	<section class="owner-page">
+		<img src="Images/Owner.jpg" class="owner-pic">
+	<div class="owner-content">
+	<h1>
+		Our Story
+	</h1>
+	<p>
+		Savanna Brew was born from a simple dream-to bring people together over great coffee. Our journey started in Nairobi, Kenya, with a passion 	for quality coffee, warm hospitality and a desire to create a cozy space where everyone feels at home
+	</p>
+	<p>
+	Meet the founder:
+	</p>
+	<blockquote>
+		Wicliff Clansman, coffee lover, entrepreneur and proud European, who believes in the power of good coffee to inspire, connect and uplift.
+	</blockquote>
+	</div>
+	</section>
+		<h1 style="text-align:center;">
+			Our Values
+		</h1>
+	<section class="Values">
+		<figure class="Value-card">
+		<img src="Images/badge.jpg">
+		<figurecaption>
+			We serve only the best coffee and fresh treats
+		</figurecaption>
+		</figure>
+		<figure class="Value-card">
+		<img src="Images/download.jpg">
+		<figurecaption>
+		We create a friendly space for everyone
+		</figurecaption>
+		</figure>
+		<figure class="Value-card">
+		<img src="Images/leag.jpg">
+		<figurecaption>
+		We care for our planet with eco-friendly practices
+		</figurecaption>
+		</figure>
+	</section>
+<div class="Banner">
+<img src="Images/SavannaBrew_Banner.png" class="Banner">
+	</div>
+</body>
+
+</html>

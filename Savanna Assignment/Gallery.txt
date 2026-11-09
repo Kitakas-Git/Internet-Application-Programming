@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Savanna breweries</title>
+
+	<link rel="stylesheet" href="styleg.css">
+</head>
+<body>
+	<header>
+	
+			<img src="Images/savanna-brew-logo.png">
+	
+		<nav>	 
+		 	<a href="index.html">Home </a> 
+		 	<a href="About.html">About </a>   
+		 	<a href="Menu.html">Menu </a>  
+		 	<a href="Gallery.html">Gallery </a>  
+		 	<a href="Contact.html">Contact </a> 
+	
+		</nav>
+	</header>
+	<div class="Banner">
+<img src="Images/gallery-coffee-banner.jpg" class="Banner">
+	</div>
+	<section class="big">
+	<figure class="pic">
+	<img src="Images/latte.jpg">
+	<figurecaption>
+	Latte
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/cappuccino.jpg">
+	<figurecaption>
+	Cappuccino
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/iced-coffee.jpg">
+	<figurecaption>
+	Iced coffee
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/iced-latte.jpg">
+	<figurecaption>
+	Iced Latte
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/croissant.jpg">
+	<figurecaption>
+	Croissant
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/muffin.jpg">
+	<figurecaption>
+	Muffin
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/chocolate-cake.jpg">
+	<figurecaption>
+	Chocolate cake
+	</figurecaption>
+	</figure>
+	<figure class="pic">
+	<img src="Images/fruit-tart.jpg">
+	<figurecaption>
+	Fruit tart
+	</figurecaption>
+	</figure>
+	<section class="big">
+<div class="Banner">
+<img src="Images/SavannaBrew_Banner.png" class="Banner">
+	</div>
+</body>
+</html>
