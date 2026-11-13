@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food for All Initiative</title>
+</head>
+<body>
+
+    <h1>Food for All Initiative</h1>
+
+    <p>
+        The Food for All Initiative is dedicated to fighting hunger and improving
+        food security by providing nutritious meals, supporting community food
+        programs, and educating families on sustainable nutrition practices.
+    </p>
+
+    <h2>Our Programmes</h2>
+    <ul>
+        <li>Community Food Distribution</li>
+        <li>School Feeding Programme</li>
+        <li>Nutrition Education Workshops</li>
+    </ul>
+
+    <p>
+        <a href="https://www.globalgiving.org/projects/nepal-flood-relief-fund/">Donate to Support Our Cause</a>
+    </p>
+
+    <img src="food-distribution.jpg"
+         alt="Volunteers distributing food packages to families in need" style="width:80%; object-fit:contain;">
+
+</body>
+</html>
