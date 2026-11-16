@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mama Njeri's Kitchen</title>
+<style>
+	h1{
+	    text-align: center; 
+	    font-weight: bold; 
+	    background-color: orange;
+	    margin: 0;
+	    padding: 20px;
+	}
+	h2{
+	    background-color: brown;
+	    color: white;
+	    margin: 0;
+	    padding: 10px;
+	}
+	.container {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-top: 10px;
+	}
+	.box {
+	    border: 1px solid #ccc;
+	    padding: 10px;
+	    width: 48%;
+	}
+	.bottom-boxes {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-top: 10px;
+	}
+	footer {
+	    background-color: brown;
+	    color: white;
+	    text-align: center;
+	    padding: 10px;
+	    margin-top: 10px;
+	}
+	.gallery {
+    	display: grid;
+    	grid-template-columns: repeat(3, 1fr);
+    	gap: 10px;
+	}
+
+	.gallery img {
+    	width: 100%;
+    	height: 120px;
+    	object-fit: cover;
+    	border: 1px solid #ccc;
+	}
+</style>
+</head>
+<body>
+
+	<!-- Header / Nav bar -->
+	<h2>
+		Mama Njeri's Kitchen
+		<span style="float:right;">Menu &bull; Order &bull; Visit</span>
+	</h2>
+
+	<!-- Hero Banner -->
+	<h1>
+		Fresh Kenyan food, cooked daily
+	</h1>
+
+	<!-- Middle Section: Table and Form side-by-side -->
+	<div class="container">
+		
+		<!-- Menu Table Box -->
+		<div class="box">
+			<h3>Menu (table)</h3>
+			<table border="1" width="100%">
+				<tr style="background-color:yellow; font-weight:bold;">
+					<th>Dish</th>
+					<th>Price</th>
+				</tr>
+				<tr>
+					<td>Pilau</td>
+					<td>KES 350</td>
+				</tr>
+				<tr>
+					<td>Ugali & Sukuma</td>
+					<td>KES 250</td>	
+				</tr>
+				<tr>
+					<td>Chapati (2)</td>
+					<td>KES 100</td>	
+				</tr>
+			</table>
+		</div>
+
+		<!-- Order Form Box -->
+		<div class="box">
+			<h3>Place an order (form)</h3>
+			<form>
+				<p><input type="text" placeholder="Your name" style="width:100%;"></p>
+				<p>
+					<select style="width:100%;">
+						<option>Pilau</option>
+						<option>Ugali & Sukuma</option>
+						<option>Chapati (2)</option>
+					</select>
+				</p>
+				<p><button type="submit" style="background-color: #d9534f; color: white; border: none; padding: 6px 12px;">Send order</button></p>
+			</form>
+		</div>
+
+	</div>
+
+	<!-- Bottom Grid Boxes -->
+	<div class="bottom-boxes">
+	<div class="box">
+    		<h3>Gallery</h3>
+    		<div class="gallery">
+        		<img src="Images/pilau.svg" alt="Pilau">
+        		<img src="Images/ugali.svg" alt="Ugali and Sukuma">
+        		<img src="Images/chapati.svg" alt="Chapati">
+    		</div>
+	</div>		
+	<div class="box">
+    		<h3>Opening Hours & Contact</h3>
+
+   		 <div class="contact-grid">
+
+        	<div>
+            		<strong>Hours</strong><br>
+            		Mon - Fri: 8AM - 8PM<br>
+            		Sat: 9AM - 6PM<br>
+            		Sun: Closed
+        	</div>
+
+        	<div>
+            		<strong>Contact</strong><br>
+            		Phone: +254 712 345 678<br>
+            		Email: info@mamanjeri.co.ke<br>
+            		Nairobi, Kenya
+        	</div>
+		</div>
+   	 	</div>
+	</div>
+	<!-- Footer -->
+	<footer>
+		&copy; 2026 Mama Njeri's Kitchen
+	</footer>
+
+</body>
+</html>
+
