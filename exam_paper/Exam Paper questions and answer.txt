@@ -1,0 +1,126 @@
+QUESTION ONE (20 MARKS) - COMPULSORY
+a) Explain the meaning of the following terms as used in Internet Application Programming. (5 Marks)
+i. Tag
+
+A tag is a keyword enclosed in angle brackets (< >) used in HTML to define and structure content on a web page. Example: <p> 
+
+ii. Attribute
+
+An attribute provides additional information about an HTML element. 
+
+iii. Element
+
+An element is a complete HTML component consisting of an opening tag, content, and a closing tag. Example: <h1>Welcome</h1>.
+
+iv. DOCTYPE Declaration
+
+The DOCTYPE declaration is placed at the beginning of an HTML document to inform the browser which version of HTML is being used. Example: <!DOCTYPE html>.
+
+v. Nesting
+
+Nesting is the practice of placing one HTML element inside another element.
+
+
+d) Analyze the ways of applying CSS styles to an HTML document and recommend the most appropriate method for a large multi-page government portal. (2 Marks)
+Inline CSS
+
+Styles are written directly inside HTML elements using the style attribute.
+
+Advantages: Quick for small changes.
+ Disadvantages: Difficult to maintain and reuse.
+
+Internal CSS
+
+Styles are written within the <style> tag in the document's <head> section.
+
+Advantages: Suitable for a single page.
+ Disadvantages: Styles cannot easily be shared across multiple pages.
+
+External CSS
+
+Styles are stored in a separate .css file and linked to HTML pages.
+
+Advantages: Easy maintenance, consistency, and reusability across many pages.
+ Disadvantages: Requires an additional file.
+
+Recommendation
+
+For a large multi-page government portal, External CSS is the most appropriate because it ensures consistency, simplifies maintenance, and allows one stylesheet to control the appearance of many pages.
+
+e) A junior developer submitted the following HTML snippet for a student registration form. Identify and correct three errors in it, explaining why each is incorrect. (3 Marks)
+Error 1
+
+Incorrect: Missing closing tag or improperly structured form elements.
+ Correction: Ensure all elements are properly opened and closed.
+ why: Browsers may not render the form correctly.
+
+Error 2
+
+Incorrect: Missing for attribute in the label or mismatched id.
+ Correction: Use <label for="name"> with id="name".
+ why: Improves accessibility and links the label to the input.
+
+Error 3
+
+Incorrect: Missing type="text" in the input element.
+ Correction: Use <input type="text">.
+ why: Clearly defines the expected input type and improves browser handling.
+
+QUESTION THREE (15 MARKS)
+a) Explain the following CSS selector types and write a working CSS rule for each, applied to a real element on a university website. (6 Marks)
+i. Universal Selector (*)
+
+The universal selector (*) selects all elements on a web page.
+e.g;
+* {
+    margin: 0;
+*   padding: 0;
+}
+ 
+ii. Class Selector (.classname)
+
+A class selector targets all HTML elements that have a specific class attribute.
+e.g;
+.notice{
+    color: blue;
+}
+<p class="notice">Universite admission is now open.</p>
+
+iii. ID Selector (#idname)
+
+An ID selector targets a single unique element with a specific ID.
+e.g;
+#header {
+    color: white;
+}
+<div> id="header">*BC University</div>
+
+iv. Descendant Selector (parent child)
+
+A descendant selector targets elements that are inside another element.
+e.g;
+nav a{
+    text-decoration: none;
+    color: green;
+}
+<nav>
+    <a href="#">Courses</a*
+    <a href="#">Admissions</a>
+</nav>
+
+v. Pseudo-class Selector (:hover)
+
+A pseudo-class selector applies styles when an element is in a specific state, such as when a user hovers over it.
+e.g;
+a:hover {
+    color: red;
+}
+
+vi. Attribute Selector ([type="text"])
+
+An attribute selector targets elements based on their attributes and attribute values.
+e.g;
+input[type="text"] {
+    border: 2px solid blue;
+}
+<input type="text" placeholder="Enter Student Name">
